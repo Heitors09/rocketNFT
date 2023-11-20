@@ -1,0 +1,114 @@
+:root {
+    --body-background: #0e0e0e;
+    --color-logo: #ff5b50;
+    --card-color: #252525;
+    --text-color: #fff;
+    --subtitle-color: #5a5757;
+    --black-text: #000;
+    --color-input: #0D0D0D;
+  }
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background: var(--body-background);
+}
+
+/*primeira seção-header*/
+.first-section{
+    width: 100vw;
+    height: 900px;
+    background: url(./assets/background.png) center no-repeat;
+}
+
+.first-section header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 57px;
+}
+
+.first-section ul{
+    display: flex;
+    gap: 60px;
+    list-style: none;
+}
+
+.first-section a{
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    color: var(--text-color);
+}
+
+.first-section header button{
+    width: 230px;
+    height: 50px;
+    background: url(./assets/logo_MetaMask.svg) no-repeat var(--text-color);
+    background-position-y: 10px;
+    background-position-x: -6px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    padding-left: 20px;
+    font-size: 16px;
+    background-size: 30% 60%;
+}
+
+.first-section main{
+    display: flex;
+    color: var(--text-color);
+    margin-top: 98px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+main h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+}
+
+main span{
+    color: var(--color-logo);
+}
+main img{
+    max-width: 80%;
+}
+
+
+.artists > p{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.group{
+    display: flex;
+    font-family: 'Montserrat', sans-serif;
+    align-items: end;
+    margin-top: 55px;
+}
+
+.astronaut-images{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16.16px;
+    justify-content: center;
+    margin-top: 100px;
+    
+    max-height: 457px;
+    
+}
+
+.astronaut-images img{
+   max-width: 20%;
+   border: 1px solid var(--text-color);
+   
+}
+
+.second-section{
+    background: var(--card-color);
+    width: 100%;
+    height: 660px;
+}
