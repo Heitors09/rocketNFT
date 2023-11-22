@@ -352,7 +352,7 @@ main img{
     margin-top: 156px;
 }
 
-.fifth-section header{
+.fifth-section .title-4{
     display: flex;
     align-items: center;
     gap: 712px;
@@ -431,4 +431,44 @@ main img{
 .send:active{
     outline: none !important;
     border: none !important;
+}
+
+.main-right{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.main-right ul{
+     color: var(--subtitle-color);
+     font-family: 'Montserrat', sans-serif;
+     list-style: none;
+     font-size: 20px;
+     display: flex;
+     flex-direction: column;
+     gap: 15px;
+     font-weight: 500;
+}
+
+.main-right span{
+    color:var(--text-color);
+}
+
+.last{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 80px;
+}
+
+.icons{
+    list-style: none;
+    display: flex;
+    gap: 50px;
+}
+
+.last p{
+     color: var(--subtitle-color);
+     font-family: 'Montserrat', sans-serif;
+     font-size: 20px;
+
 }
